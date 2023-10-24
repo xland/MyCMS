@@ -1,0 +1,11 @@
+#TopBar{
+    display: flex;
+    height: 28px;
+    line-height: 28px;
+    -webkit-app-region:drag;
+    background: #eee;
+    .titleBox{
+        flex: 1;
+        padding-left: 16px;
+    }
+}

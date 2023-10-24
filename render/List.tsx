@@ -1,5 +1,5 @@
 import React from "jsx-dom";
-import "./TopBar.scss";
+import "./List.scss";
 export default function () {   
-  return <div id="TopBar"></div>;
+  return <div id="List"></div>;
 }

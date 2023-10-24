@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <TopBar></TopBar>
-      <div>
+      <div class="content">
         <LeftBar></LeftBar>
         <Category></Category>
         <List></List>

@@ -19,7 +19,7 @@ let buildMain = async ()=>{
  * 启动Dev服务器
  */
 let startDevServer = async ()=>{
-  let arr = ["Index","IndexNewJob"];
+  let arr = ["Index"];
   for(let item of arr){
     let content = `<html>
     <head>
@@ -27,7 +27,7 @@ let startDevServer = async ()=>{
         <link rel="stylesheet" href="./res/iconfont.css">
         <link rel="stylesheet" href="./${item}.css">
     </head>
-    <body>
+    <body>        
         <script src="./${item}.js"></script>
         <script>
             new EventSource('/esbuild').addEventListener('change', () => location.reload())
